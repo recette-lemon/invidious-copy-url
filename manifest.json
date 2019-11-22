@@ -1,0 +1,21 @@
+{
+	"name": "Invidious Copy Url",
+	"version": "1.0",
+	"description": "adds context menu options on invidious to copy shortened youtube url at current time or not",
+	"manifest_version": 2,
+
+	"background": {
+		"scripts": ["add.js"],
+		"persistent": true
+	},
+
+	"permissions": [
+		"activeTab",
+		"contextMenus",
+		"*://invidio.us/watch?v=*",
+	],
+
+	"icons": {
+		"16": "favicon-16x16.png"
+	}
+}
